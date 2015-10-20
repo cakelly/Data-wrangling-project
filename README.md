@@ -8,8 +8,8 @@ output: html_document
 Course project
 
 The script run_analysis.R creates a tidy dataset from the dataset described at 
-  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-which data is available at:
+  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones,
+which dataset is available at:
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The run_analysis.R script is commented, a detailed description of all the steps isn't 
