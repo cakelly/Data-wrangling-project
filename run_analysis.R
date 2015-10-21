@@ -71,12 +71,8 @@ wantCols <- grep(wantCols.regex, names(testdf), ignore.case=F)
 # Put wanted cols into dataframe
 dataset <- rbind(testdf[,wantCols], traindf[,wantCols])
 
-    ### This is for comparing versions of the feature list ###
-    #featureCompare <- matrix(names(dataset))
-#
-#
-#   Merge actLabels into dataset$activity
-
+### This is for comparing versions of the feature list ###
+#featureCompare <- matrix(names(dataset))
 
 #
 # 4. Appropriately labels the data set with descriptive variable names. 
@@ -94,10 +90,10 @@ features <- gsub("Body","", features)
 #   Remove periods from variables
 features <- gsub("\\.","", features)
 
-    ###
-    #featureCompare <- cbind(featureCompare,features,tolower(features))
+###
+#featureCompare <- cbind(featureCompare,features,tolower(features))
 
-#   lowercase and apply to the dataframe
+#   lowercase column headers and apply to the dataframe
 names(dataset) <- tolower(features)
 
 #
