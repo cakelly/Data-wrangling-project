@@ -14,11 +14,6 @@ A total of 66 mean values are included, plus the subject id and activity label, 
 The script also produces a summary dataset, **tidySummary.txt**.
 The summary contains feature averages across all the observations of each activity for each subject.
 
-# Citation
-
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
-The dataset and project are available at the  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
-
 # Codebook
 
 The values of all the features are  normalized and bounded within [-1,1]. The values not prefixed with "freq" are all time-domain measurements.  Also, values not prefixed with "gravity" are assumed to be "body" motion components. The units used for the accelerations (total and body) are 'g (gravity of earth -> 9.80665 m/seg2). The gyroscope units are rad/seg.
@@ -44,4 +39,9 @@ freqacceljerkmag{mean,std}| Acceleration jerk mag frequency  | g
 freqgyromag{mean,std}| Gyroscopy mag frequency | rad/seg
 freqgyrojerkmag{mean,std}| Gyroscopy jerk mag frequency | rad/seg
 
+
+# Citation
+
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
+The dataset and project are available at the  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
